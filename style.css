@@ -1,0 +1,643 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    height: 100vh;
+}
+
+header {
+    height: 10%;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+header .container>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+}
+
+header a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000000;
+    text-decoration: none;
+}
+
+main {
+    padding: 15px 55px;
+    height: 90%;
+}
+
+main img {
+    width: 100%;
+    height: 100%;
+}
+
+.textdesign {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 82px;
+    margin-bottom: 208px;
+}
+
+.textdesign h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #1A1A1A;
+    width: 35%;
+}
+
+.textdesign p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #AAAAAA;
+    width: 50%;
+}
+
+.roomdesign {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.room {
+    width: 49%;
+}
+
+.room img {
+    width: 100%;
+}
+
+.room p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1A1A1A;
+    margin: 2% 0 4% 0;
+}
+
+.brands .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.leading {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 244px 0 125px 0;
+}
+
+.leading h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    /* identical to box height, or 100% */
+    text-align: center;
+    color: #1A1A1A;
+}
+
+.leading p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    color: #4A4A4A;
+}
+
+.brand {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 190px;
+}
+
+.brand div {
+    width: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 49px;
+}
+
+.brand div img {
+    width: 60%;
+}
+
+.burger {
+    display: none;
+}
+
+.burger img {
+    height: 50px;
+}
+
+/* slider start */
+.sliderimg {
+    display: flex;
+}
+
+.centerimg {
+    width: 80%;
+    display: flex;
+    flex-grow: 1;
+}
+
+.slider .container>h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    color: #1A1A1A;
+    margin-top: 83px;
+}
+
+.slider .container>p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 12px;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #46856E;
+    margin-top: 24px;
+}
+
+.pluses h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #1A1A1A;
+    margin-bottom: 18px;
+}
+
+.pluses p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #AAAAAA;
+    width: 80%;
+    margin-bottom: 237px;
+}
+
+.pluses {
+    display: flex;
+    margin-top: 63px;
+}
+
+.pluses div {
+    display: flex;
+    flex-direction: column;
+}
+
+.pluses .plusimg img {
+    height: 100%;
+}
+
+.plusimg {
+    display: flex;
+    align-items: center;
+    margin-bottom: 34px;
+}
+
+.circle {
+    margin-top: 24px;
+    width: fit-content;
+}
+
+/* women start */
+.stars {
+    height: 800px;
+    margin-bottom: 240px;
+}
+
+.stars .container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.women {
+    background-image: url(Rectanglewomen.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding-top: 80px;
+}
+
+.otzyv {
+    display: flex;
+    flex-direction: column;
+    padding-left: 185px;
+    margin-top: 40px;
+}
+
+.otzyv>img {
+    width: 25%;
+}
+
+.otzyv .otlogo {
+    width: 8%;
+}
+
+.otzyv p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    width: 20%;
+}
+
+.otzyvy>p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 46px;
+    margin-left: 195px;
+}
+
+.work {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+}
+
+.work h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    color: #1A1A1A;
+}
+
+.work p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #AAAAAA;
+}
+
+.work div {
+    width: 35%;
+    align-self: center;
+}
+
+.work img {
+    width: 60%;
+}
+
+footer .container {
+    display: flex;
+}
+
+footer {
+    background: #2B2B2B;
+    box-shadow: 0px 400px 0px #2B2B2B;
+}
+
+footer a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 100%;
+}
+
+.about-showrooms {
+    width: 100%;
+    margin-right: 50px;
+}
+
+footer .leftF p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    margin-bottom: 19px;
+}
+
+.about {
+    margin-bottom: 27px;
+}
+
+.leftF {
+    /* width: 50%; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 97px;
+    margin-bottom: 73px;
+}
+
+.about,
+.support {
+    margin-bottom: 20px;
+}
+
+.leftF img {
+    align-self: flex-start;
+    margin-right: 69px;
+}
+
+.about,
+.showrooms,
+.support,
+.office {
+    width: 60%;
+}
+
+/* .about-showrooms {
+    display: flex;
+    flex-direction: column;
+} */
+
+/* leftF end */
+.rightF {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 97px;
+    position: relative;
+}
+
+.followus {
+    flex-direction: column;
+    width: 100%;
+    margin-right: 49px;
+}
+
+.followus img {
+    margin-right: 13px;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+}
+
+.feedback>input {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 3px;
+    background: none;
+    height: 54px;
+    width: 327px;
+}
+
+.feedback select {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, 0.5);
+    background: none;
+    border: none;
+    height: 21px;
+    width: fit-content;
+    align-self: flex-end;
+    margin-right: 160px;
+    margin-top: 16px;
+    margin-bottom: 56px;
+}
+
+.rightF p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+
+.feedback span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.feedback div input {
+    width: 28px;
+    height: 26px;
+    background: #2B2B2B;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: none;
+    position: absolute;
+    right: 500px;
+}
+
+.feedback div {
+    position: relative;
+}
+
+.feedback p+p {
+    margin: 17px 0 30px 0;
+}
+
+.feedback a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 60px;
+    text-align: right;
+    letter-spacing: 2.3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 56px;
+    padding-right: 134px;
+}
+
+.rightF>a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    /* identical to box height */
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+    position: absolute;
+    height: 13px;
+    left: 60%;
+    right: -25%;
+    top: 170px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:576px) {
+    header .container div {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .main {
+        height: fit-content;
+    }
+
+    header {
+        height: 10vh;
+    }
+
+    main {
+        height: fit-content;
+        padding: 10px;
+    }
+
+    .textdesign {
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .textdesign h1 {
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .textdesign p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .roomdesign {
+        flex-direction: column;
+    }
+
+    .room {
+        width: 100%;
+    }
+
+    .circle {
+        display: none;
+    }
+
+    .pluses {
+        flex-direction: column;
+    }
+
+    .pluses p {
+        margin-bottom: 15%;
+    }
+
+    .slider .container>h1 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .sliderimg {
+        height: 25%;
+    }
+
+    .leading h1 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .brand div {
+        width: 33%;
+    }
+
+    .otzyv .otlogo {
+        width: 30%;
+    }
+
+    .otzyv>img {
+        width: 100%;
+    }
+
+    .otzyv {
+        padding-left: 40px;
+    }
+
+    .otzyv p {
+        width: 70%;
+        background-color: #c9c9c979;
+    }
+
+    .otzyvy>p {
+        margin-left: 60px;
+    }
+
+    .women {
+        background-position: center center;
+    }
+
+}
+
+/* @media (max-width:576px) and (min-width:500px) { */
+.sliderimg {
+    height: 50%;
+}
+}
+
+/* @media (max-width:500px) and (min-width:400px) { */
+.sliderimg {
+    height: 40%;
+}
+}
+
+/* @media (max-width:400px) and (min-width:350px) { */
+.sliderimg {
+    height: 35%;
+}
+}
